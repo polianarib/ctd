@@ -1,0 +1,8 @@
+Comandos mais utilizados do Git e Github
+Clonar um repositório existente: $git clone endereçodogit@ 
+Criar um novo repositório local: $ git init
+Adicionar o arquivo: $git add nome / $git add . <todos os arquivos>
+Verificar o status: $git status
+Tornar as alterações permanentes: $git commit -m "mensagem explicando as alterações"
+Enviar o conteúdo para o github: $git push / $git push endereçodogit@
+

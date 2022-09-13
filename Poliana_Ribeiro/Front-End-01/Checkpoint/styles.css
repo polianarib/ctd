@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap'); 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*verificar a necessidade disto*/
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #e6d8d0;
+    
+    
+    min-height: 213px;
+    width: 100%; /*verificar se é isso mesmo*/
+    padding: 20px 100px;
+    position: sticky;
+    top: 0;  
+    z-index: 50;
+
+}
+
+.img-logo {
+
+    width: 340px; /*resolver tamanho*/
+    height: 140px;
+    /*margin-left: 122px;*/
+    object-fit: scale-down;
+    
+   
+}
+
+
+.main-menu {
+
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 27px;
+  
+}
+
+.main-menu a {
+
+    display: flex; /*resolver tamanho*/
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: #6f5748;;
+    font-size: 24px;
+    padding: 20px;
+    border: 1px solid;
+    width: 197px;
+    height: 82px;
+    border-radius: 36px; 
+}
+
+.background-main {
+
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 532px;
+    top: 213px;
+}
+
+ .img-main {
+    
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+
+.main-site-content main{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 745px;
+}
+
+.curiosidades-title {
+    
+    display: flex;
+    flex-wrap: wrap;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #723527;
+    margin: 0px 35px;
+    position: relative;
+    left: 63px;
+    top: 90px;
+
+}
+
+.curiosidades-catimbau {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    position: relative;
+    top: 127px;
+    left: 0px;
+    
+}
+
+.curiosidades-catimbau .curiosidades-img {
+
+    display: flex;
+    object-fit: cover;
+    width: 335px;
+    height: 534px;
+    border-radius: 31px;
+
+}
+
+.video-title {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #723527;
+    margin: 0px 20px;
+    position: relative;
+    top: 200px;
+    left: 80px;
+
+
+}
+
+.catimbau-video {
+
+    width: 1077px;
+    height: 534px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+        
+    margin-top: 37px;
+    margin-left: 0px;
+    overflow: hidden;
+    background: #e6d8d0;
+    border-radius: 31px;
+
+}
+
+video {
+
+    width: 1077px;
+    height: 534px;
+    object-fit: cover;
+
+}
+
+footer {
+
+    background-color: #caaa91;
+    width: 100%;
+    min-height: 414px;
+    position: absolute;
+    bottom: 0%; 
+}
+
+   
+.final-text {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 75px;
+    color:#723527;
+    position: relative;
+    left: 76px;
+    top: 29px;
+
+}
+
+.content-contat {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px 213px;
+
+}
+
+.info-final 
+
+{
+    display: flex;  
+    align-items: center;
+    align-content: center;
+    flex-direction: column;  
+}
+
+ .contat-img {
+
+    display: flex;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+
+.contat-link {
+
+    display: flex;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 36px;
+    color: #723527;
+    margin-bottom: 80px;
+
+}
+
+

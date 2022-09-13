@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap'); 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.page-top {
+
+    position:relative;
+    background-color: #1cd1b0;
+    width: 1024px;
+    height: 38px;
+}
+
+.text-top {
+
+    position: absolute;
+    width: 124px;
+    height: 18px;
+    left: 10px;
+    top: 10px;      
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    color: #000000;
+       
+}
+
+.page-title {
+
+    background-color: #00669f;
+    display: flex;
+    position: absolute;
+    width: 1024px;
+    height: 101px;
+    left: 0px;
+    top: 38px;
+   
+}
+
+.text-title {
+
+    position: absolute;
+    width: 224px;
+    height: 47px;
+    top: 25px;
+    left: 28px;
+    
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 47px;
+    color: #000000;
+
+}
+
+.hero-cards {
+
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    background-color: aquamarine;
+    width: 1024px;
+    height: 597px;
+    top: 101px;
+}
+
+.hero-cards .bat-card {
+
+    position: absolute;
+    gap: 20px;
+    /*width: 374px;
+    height: 525px;*/
+    left: 112px;
+    top: 100px;
+    background-color: #f3f3f3;
+}
+
+.bat-card .background-image {
+
+    position: absolute;
+    width: 374px;
+    height: 218.94px;
+    left: 0px;
+    top: -15px;
+    z-index: 1;
+}
+
+.bat-card .favorite-icon {
+
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    top: -80px;
+    z-index: 2;
+
+}
+
+.bat-card .profile-image {
+
+    position: relative;
+    width: 135.43px;
+    height: 135.43px;
+    left: 75px;
+    top: 135px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.bat-card .hero-title {
+
+    position: relative;
+    width: 137.69px;
+    height: 39.5px;
+    top: 140px;
+    left: 120px;
+    
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    
+}
+
+.bat-card .hero-text {
+
+    position: relative;
+    width: 301.33px;
+    height: 127.53px;
+    top: 145px;
+    left: 40px;
+    
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.bat-card button {
+
+    background-color: #00669f;
+    color: #f3f3f3;
+    position: relative;
+    width: 145.34px;
+    height: 54.76px;
+    left: 120px;
+    top: 145px;
+
+}
+
+.hero-cards .arle-card {
+
+    position: absolute;
+    /*width: 374px;
+    height: 525px;*/
+    left: 550px;
+    top: 100px;
+
+    background-color: #f3f3f3;
+}
+
+.arle-card .background-image {
+
+    position: absolute;
+    width: 374px;
+    height: 218.94px;
+    left: 0px;
+    top: -15px;
+    z-index: 1;
+}
+
+.arle-card .favorite-icon {
+
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    top: -80px;
+    z-index: 2;
+
+}
+
+.arle-card .profile-image {
+
+    position: relative;
+    width: 135.43px;
+    height: 135.43px;
+    left: 75px;
+    top: 135px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.arle-card .hero-title {
+
+    position: relative;
+    width: 137.69px;
+    height: 39.5px;
+    top: 140px;
+    left: 120px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    
+}
+
+.arle-card .hero-text {
+
+    position: relative;
+    width: 301.33px;
+    height: 127.53px;
+    top: 145px;
+    left: 40px;
+    
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.arle-card button {
+
+    background-color: #00669f;
+    color: #f3f3f3;
+    position: relative;
+    width: 145.34px;
+    height: 54.76px;
+    left: 120px;
+    top: 145px;
+
+}
+
+
+
+footer {
+
+    position: absolute;
+    background-color: #00669f;
+    width: 1024px;
+    height: 51px;
+    left: 0px;
+    top: 972px;
+
+}
+
+.text-final {
+
+    color: #fff9f9;
+    position: absolute;
+    width: 299px;
+    height: 19px;
+    top: 18px;
+    left: 28px;
+    
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.75px;
+
+
+
+}
+
+
+
+    

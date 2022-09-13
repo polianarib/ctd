@@ -1,0 +1,27 @@
+body {
+    
+    background-color: rgb(189, 159, 165);
+
+}
+
+
+.titulo-primario {
+
+
+    color: #1d0a88;
+    font-size: 40px;
+    margin-bottom: 80px;
+
+}
+
+.lista-principal {
+
+    background-color: #79d0eb;
+    font-size: 30px;
+}
+
+.lista-principal li {
+
+    color: rgb(0, 34, 27)
+
+}
